@@ -1,0 +1,40 @@
+.grid-layout {
+	display: grid;
+	grid:
+		"logo nav nav" 50px 
+		"sidenav content content" 150px 
+		"sidenav content content" 100px 
+		"footer footer footer" 100px 
+	/ 100px 1fr 50px;
+}
+
+.logo {
+	grid-area: logo;
+}
+
+.nav {
+	grid-area: nav;
+}
+
+.content {
+	grid-area: content;
+}
+
+.sidenav {
+	grid-area: sidenav;
+}
+
+.advert {
+	grid-area: advert;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.item {
+	margin: 5px;
+	background: red;
+	text-align: center;
+	font-size: 1.5em;
+}
